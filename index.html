@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- buat nav -->
+    <nav>
+      <!-- logo -->
+      <a href="" class="logo">III Trace</a>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Me</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+      <!-- teks -->
+      <div class="toggle"></div>
+    </nav>
+    <section>
+      <div class="text-container">
+        <p>Hello</p>
+        <p>I'm Handhika YP</p>
+        <p>
+          I'm a Javascript <br />
+          Fanaticsm
+        </p>
+        <button class="hire-btn">Chat Me</button>
+        <button class="down-cv">Social Media</button>
+      </div>
+
+      <!-- model -->
+      <img src="res/model.png" alt="model" class="model" />
+    </section>
+
+    <!-- about-section -->
+    <div class="about-container">
+      <!-- img -->
+      <img src="res/about-img.png" alt="" />
+      <!-- about -->
+      <div class="about-text">
+        <p>About Me</p>
+        <p>Javascript & Fanaticsm</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          provident velit cumque eum laudantium architecto, quaerat iure
+          corporis alias iste quibusdam. Corrupti quam adipisci doloribus
+          debitis itaque, reprehenderit sapiente numquam?
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab atque
+          iure eligendi ex maiores earum ipsa? Asperiores est magni veniam
+          consequatur assumenda. Qui eius voluptate dolores. Cum sint
+          exercitationem non!
+        </p>
+        <button>Hire me</button>
+        <button>Download CV</button>
+      </div>
+    </div>
+
+    <!-- layanan -->
+    <div class="services">
+      <!-- tulisan -->
+      <div class="services-text">
+        <p>Services</p>
+        <p>Services required</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet
+          similique blanditiis! Quo cupiditate atque nihil facilis dicta tenetur
+          provident quibusdam, odio minus vitae, unde rerum rem? Explicabo, at
+          obcaecati!
+        </p>
+      </div>
+      <!-- box -->
+      <div class="box-container">
+        <div class="box-1">
+          <span>1</span>
+          <p class="heading">Javascript</p>
+          <p class="details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            repellat, voluptate
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="box-2">
+          <span>2</span>
+          <p class="heading">Node JS</p>
+          <p class="details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            repellat, voluptate
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="box-3">
+          <span>3</span>
+          <p class="heading">React</p>
+          <p class="details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            repellat, voluptate
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- hubungi -->
+    <div class="contact-me">
+      <p>Any Project or any Idea of story</p>
+      <button>Contact me</button>
+    </div>
+    <!-- footer -->
+    <footer>
+      <p>Team Work</p>
+      <p>
+        I makes soon as possible. You will love my story, if not, i change until
+        your satisfication can be fulfiled
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <p class="copyright">Copyright by Team work internet - GTG</p>
+    </footer>
+
+    <!-- social bar -->
+    <div class="a-social-b">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <script src="all.min.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".toggle").toggleClass("active");
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
